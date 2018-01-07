@@ -1,5 +1,5 @@
 # HomeLab
-This repo contains configuration files to run a hom lab.
+This repo contains configuration files to run a home lab.
 
 ## Infrastructure
 ### VMWare ESXi running virtual machines
@@ -20,3 +20,18 @@ All VMs have a DHCP reservation
 ## Security
 - Certificate Authority: https://letsencrypt.org/
 - Managed with https://certbot.eff.org
+
+
+### Links:
+- Install haproxy + using OpenSSL: 
+https://www.upcloud.com/support/haproxy-load-balancer-centos/#installing-haproxy
+http://virtuallyhyper.com/2013/05/configure-haproxy-to-load-balance-sites-with-ssl/
+https://seanmcgary.com/posts/using-sslhttps-with-haproxy/
+
+- Install certbot for haproxy: 
+https://certbot.eff.org/#centosrhel7-haproxy
+
+- SSL termination haproxy + autorenewal: 
+https://www.digitalocean.com/community/tutorials/how-to-implement-ssl-termination-with-haproxy-on-ubuntu-14-04
+https://www.digitalocean.com/community/tutorials/how-to-secure-haproxy-with-let-s-encrypt-on-ubuntu-14-04
+
